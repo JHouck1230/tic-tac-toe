@@ -97,62 +97,57 @@ function checkGame() {
 			} else {
 				playerTurn.innerHTML = `${players[1]} Wins`;
 			}
-		}
-		if(square[3].classList.contains('X') && square[4].classList.contains('X') && square[5].classList.contains('X') || square[3].classList.contains('O') && square[4].classList.contains('O') && square[5].classList.contains('O')){
+		} else	if(square[3].classList.contains('X') && square[4].classList.contains('X') && square[5].classList.contains('X') || square[3].classList.contains('O') && square[4].classList.contains('O') && square[5].classList.contains('O')){
 			game = false;
 			if(!player){
 				playerTurn.innerHTML = `${players[0]} Wins`;
 			} else {
 				playerTurn.innerHTML = `${players[1]} Wins`;
 			}
-		}
-		if(square[6].classList.contains('X') && square[7].classList.contains('X') && square[8].classList.contains('X') || square[6].classList.contains('O') && square[7].classList.contains('O') && square[8].classList.contains('O')){
+		} else	if(square[6].classList.contains('X') && square[7].classList.contains('X') && square[8].classList.contains('X') || square[6].classList.contains('O') && square[7].classList.contains('O') && square[8].classList.contains('O')){
 			game = false;
 			if(!player){
 				playerTurn.innerHTML = `${players[0]} Wins`;
 			} else {
 				playerTurn.innerHTML = `${players[1]} Wins`;
 			}
-		}
-		if(square[0].classList.contains('X') && square[3].classList.contains('X') && square[6].classList.contains('X') || square[0].classList.contains('O') && square[3].classList.contains('O') && square[6].classList.contains('O')){
+		} else	if(square[0].classList.contains('X') && square[3].classList.contains('X') && square[6].classList.contains('X') || square[0].classList.contains('O') && square[3].classList.contains('O') && square[6].classList.contains('O')){
 			game = false;
 			if(!player){
 				playerTurn.innerHTML = `${players[0]} Wins`;
 			} else {
 				playerTurn.innerHTML = `${players[1]} Wins`;
 			}
-		}
-		if(square[1].classList.contains('X') && square[4].classList.contains('X') && square[7].classList.contains('X') || square[1].classList.contains('O') && square[4].classList.contains('O') && square[7].classList.contains('O')){
+		} else	if(square[1].classList.contains('X') && square[4].classList.contains('X') && square[7].classList.contains('X') || square[1].classList.contains('O') && square[4].classList.contains('O') && square[7].classList.contains('O')){
 			game = false;
 			if(!player){
 				playerTurn.innerHTML = `${players[0]} Wins`;
 			} else {
 				playerTurn.innerHTML = `${players[1]} Wins`;
 			}
-		}
-		if(square[2].classList.contains('X') && square[5].classList.contains('X') && square[8].classList.contains('X') || square[2].classList.contains('O') && square[5].classList.contains('O') && square[8].classList.contains('O')){
+		} else	if(square[2].classList.contains('X') && square[5].classList.contains('X') && square[8].classList.contains('X') || square[2].classList.contains('O') && square[5].classList.contains('O') && square[8].classList.contains('O')){
 			game = false;
 			if(!player){
 				playerTurn.innerHTML = `${players[0]} Wins`;
 			} else {
 				playerTurn.innerHTML = `${players[1]} Wins`;
 			}
-		}
-		if(square[0].classList.contains('X') && square[4].classList.contains('X') && square[8].classList.contains('X') || square[0].classList.contains('O') && square[4].classList.contains('O') && square[8].classList.contains('O')){
+		} else	if(square[0].classList.contains('X') && square[4].classList.contains('X') && square[8].classList.contains('X') || square[0].classList.contains('O') && square[4].classList.contains('O') && square[8].classList.contains('O')){
 			game = false;
 			if(!player){
 				playerTurn.innerHTML = `${players[0]} Wins`;
 			} else {
 				playerTurn.innerHTML = `${players[1]} Wins`;
 			}
-		}
-		if(square[2].classList.contains('X') && square[4].classList.contains('X') && square[6].classList.contains('X') || square[2].classList.contains('O') && square[4].classList.contains('O') && square[6].classList.contains('O')){
+		} else	if(square[2].classList.contains('X') && square[4].classList.contains('X') && square[6].classList.contains('X') || square[2].classList.contains('O') && square[4].classList.contains('O') && square[6].classList.contains('O')){
 			game = false;
 			if(!player){
 				playerTurn.innerHTML = `${players[0]} Wins`;
 			} else {
 				playerTurn.innerHTML = `${players[1]} Wins`;
 			}
+		} else {
+			playerTurn.innerHTML = "Cat's Game!";
 		}
 	}
 	if(!game){
