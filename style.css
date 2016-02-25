@@ -1,0 +1,106 @@
+body {
+	text-align: center;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 45px;
+}
+
+#nameInput > span{
+	font-size: 24px;
+	margin: 10px;
+}
+
+#names {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: 'Gloria Hallelujah', cursive;
+	border: solid 3px #FFFFFF;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+#newGame {
+	font-size: 24px;
+	background-color: #000000;
+	color: #FFFFFF;
+	margin: 20px;
+	border: 0px;
+	font-family: 'Gloria Hallelujah', cursive;
+	display: none;
+}
+
+#submitName {
+	font-size: 24px;
+	background-color: #000000;
+	color: #FFFFFF;
+	margin: 20px;
+	border: 0px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+button:focus, input:focus {
+	outline: 0 !important;
+}
+
+#container {
+	margin: 0 auto;
+	width: 300px;
+	font-color: #FFFFFF;
+}
+
+table {
+	border-collapse: collapse;
+	color: #FFFFFF;
+	font-color: #FFFFFF;
+}
+
+#playerTurn {
+	font-size: 20px;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+
+.one {
+	border-bottom: #FFFFFF solid 3px;
+	border-right: #FFFFFF solid 3px;
+}
+
+.two {
+	
+}
+
+.three {
+	border-bottom: #FFFFFF solid 3px;
+	border-left: #FFFFFF solid 3px;
+}
+
+.four {
+
+}
+
+.five {
+	border: #FFFFFF solid 3px;
+}
+
+.six {
+
+}
+
+.seven {
+	border-top: #FFFFFF solid 3px;
+	border-right: #FFFFFF solid 3px;
+}
+
+.eight {
+
+}
+
+.nine {
+	border-top: #FFFFFF solid 3px;
+	border-left: #FFFFFF solid 3px;
+}
